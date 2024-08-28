@@ -1,0 +1,31 @@
+:root {
+    /* gray scale */
+    --gray50: #F9F9F9;
+    --gray100: #F2F2F2;
+    --gray200: #E9E9E9;
+    --gray300: #D9D9D9;
+    --gray400: #B5B5B5;
+    --gray500: #959595;
+    --gray600: #6D6D6D;
+    --gray700: #555555;
+    --gray800: #333333;
+    --gray850: #242424;
+    --gray900: #1B1B1B;
+    --black: #000000;
+
+    /* semantic */
+    --primary-purple100: #A990DD;
+    --primary-purple200: #8962F8;
+    --primary-purple300: #5F41B2;
+
+    /* error */
+    --error100: #FD4154;
+    --error200: #FB0049;
+
+    /* success */
+    --success: #77EA7E;
+
+    /*social login */
+    --google: #4183F3;
+    --kakao: #FFDA3A;
+}
