@@ -1,0 +1,14 @@
+.input-lg {
+    padding-left: 5px;
+    background-color: var(--gray50);
+    border: 1px solid var(--gray700);
+    border-radius: var(--round200);
+}
+
+.input-lg:focus {
+    outline: 2px solid var(--primary-purple100);
+}
+
+.input-lg:disabled {
+    background-color: var(--gray400);
+}

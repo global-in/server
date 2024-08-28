@@ -1,0 +1,27 @@
+.btn-lg {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    color: var(--gray50);
+    background-color: var(--primary-purple300);
+
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn-gray-lg {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    color: var(--gray50);
+    background-color: var(--gray600);
+
+    border: none;
+    outline: none;
+    cursor: pointer;
+}

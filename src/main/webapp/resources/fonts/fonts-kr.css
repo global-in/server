@@ -1,0 +1,154 @@
+:root {
+    --size100: 10px;
+    --size200: 12px;
+    --size300: 14px;
+    --size400: 16px;
+    --size500: 18px;
+    --size600: 24px;
+    --size700: 28px;
+    --size800: 32px;
+    --size900: 36px;
+}
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Freesentation-9Black';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2404@1.0/Freesentation-9Black.woff2') format('woff2');
+    font-style: normal;
+}
+
+
+/* Freesentation-9Black font-weight classes */
+.font-kr-100 {
+    font-family: "Freesentation-9Black", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.font-kr-200 {
+    font-family: "Freesentation-9Black", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.font-kr-300 {
+    font-family: "Freesentation-9Black", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.font-kr-400 {
+    font-family: "Freesentation-9Black", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.font-kr-500 {
+    font-family: "Freesentation-9Black", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.font-kr-600 {
+    font-family: "Freesentation-9Black", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.font-kr-700 {
+    font-family: "Freesentation-9Black", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.font-kr-800 {
+    font-family: "Freesentation-9Black", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.font-kr-900 {
+    font-family: "Freesentation-9Black", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+/* pretendard */
+.pre-100 {
+    font-family: "Pretendard-Regular", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.pre-200 {
+    font-family: "Pretendard-Regular", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.pre-300 {
+    font-family: "Pretendard-Regular", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.pre-400 {
+    font-family: "Pretendard-Regular", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.pre-500 {
+    font-family: "Pretendard-Regular", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.pre-600 {
+    font-family: "Freesentation-9Black", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.pre-700 {
+    font-family: "Freesentation-9Black", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.pre-800 {
+    font-family: "Pretendard-Regular", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.pre-900 {
+    font-family: "Pretendard-Regular", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}

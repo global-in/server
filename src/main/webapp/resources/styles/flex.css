@@ -1,0 +1,29 @@
+.bg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 100vh;
+
+    margin: 0;
+    padding: 0;
+}
+
+.input-flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-content: center;
+    width: 100%;
+}
+
+
+.input-flex-col {
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    align-content: center;
+    width: 100%;
+}
