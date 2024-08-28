@@ -1,0 +1,13 @@
+.img-xs {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: var(--gray400);
+}
+
+.logo-xs {
+    width: 28px;
+    height: 28px;
+    border-radius: 2px;
+    background-color: var(--gray400);
+}

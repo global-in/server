@@ -18,6 +18,6 @@ public class LocalAuthController {
 
     @GetMapping(value = "/")
     public String localHome() {
-        return "index";
+        return "layout/main";
     }
 }
