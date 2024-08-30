@@ -18,7 +18,12 @@
     <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/styles/input.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/variables/colors.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/variables/round.css">
+    <script src="https://kit.fontawesome.com/4d60d5f4b1.js" crossorigin="anonymous"></script>
     <style>
+        .btn-edit {
+            cursor: pointer;
+        }
+
         .tag {
             padding: 5px 10px;
             background-color: var(--gray400);
@@ -29,10 +34,10 @@
     </style>
 </head>
 <body>
-    <div style="width: 90%; margin-top: 40px; padding: 0 20px 0 20px;">
+    <div style="width: 90%; margin-top: 40px;">
         <div class="box-header-flex">
-            <div class="pre-500" style="color: var(--primary-purple300); font-size: 20px"><spring:message code="label-tag-kr"></div>
-            <div style="color: var(--gray700); font-size: var(--size400); margin-top: 2px"><i class="fa-regular fa-pen-to-square"></i></div>
+            <div class="pre-500" style="color: var(--primary-purple300); font-size: 20px"><spring:message code="label-tag-kr" /></div>
+            <div class="btn-edit" style="color: var(--gray600); font-size: var(--size400); margin-top: 2px"><i class="fa-regular fa-pen-to-square"></i></div>
         </div>
         <div class="tag-flex pre-400">
             <div class="tag">나히아</div>

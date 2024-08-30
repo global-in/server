@@ -28,7 +28,7 @@
     </style>
 </head>
 <body>
-    <div style="width: 90%; padding: 40px 20px 0 20px">
+    <div style="width: 90%; margin-top: 40px">
         <div class="box-header-flex" style="margin: 0 0 0 4px">
             <div class="profile-name-flex">
                 <div class="pre-700" style="font-size: var(--size700)">sieunnnn</div>
