@@ -20,8 +20,16 @@
     <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/variables/round.css">
     <script src="https://kit.fontawesome.com/4d60d5f4b1.js" crossorigin="anonymous"></script>
     <style>
-        body {
+        html, body {
             background-color: var(--gray300);
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            overflow-y: scroll;
+        }
+
+        body::-webkit-scrollbar {
+            display: none;
         }
 
         a {
@@ -38,45 +46,49 @@
     </style>
 </head>
 <body class="bg" style="justify-content: flex-start">
-<div style="background-color: var(--gray100); width:100%; height: 4%; min-height: 40px">
-    <div class="header-flex">
-        <div class="logo-xs" style="margin-left: 5px"></div>
-        <div class="img-xs" style="margin-right: 5px"></div>
-    </div>
-</div>
-<!-- profile -->
-<div class="profile"></div>
-<!-- banner -->
-<div style="width: 100%; height: 10%; min-height: 200px; background-color: indianred">
-</div>
-<!-- menu -->
-<div class="menu-flex" style="width: 100%; height: 7%; background-color: var(--gray200); border-bottom: 1px solid var(--gray400); min-width: 900px; justify-content: space-between">
-    <div style="width: 27%; min-width: 340px"></div>
-    <div class="menu-flex" style="width: 100%">
-        <div class="menu-flex pre-500 menu" style="color: var(--gray500); font-size: var(--size400); margin: 0 40px 0 0;">
-            <div style="margin-right: 10px"><i class="fa-solid fa-house"></i></div>
-            <div><spring:message code="home-kr"/></div>
-        </div>
-        <div class="menu-flex pre-500 menu" style="color: var(--gray500); font-size: var(--size400); margin-right: 40px">
-            <div style="margin-right: 10px"><i class="fa-regular fa-rectangle-list"></i></div>
-            <div><spring:message code="feed-kr"/></div>
-        </div>
-        <div class="menu-flex pre-500 menu" style="color: var(--gray500); font-size: var(--size400); margin-right: 40px;">
-            <div style="margin-right: 10px"><i class="fa-solid fa-user-group"></i></div>
-            <div><spring:message code="follower-kr"/></div>
-        </div>
-        <div class="menu-flex pre-500 menu" style="color: var(--gray500); font-size: var(--size400); margin-right: 40px">
-            <div style="margin-right: 10px"><i class="fa-regular fa-envelope"></i></div>
-            <div><spring:message code="message-kr"/></div>
-        </div>
-        <div class="menu-flex pre-500 menu" style="color: var(--gray500); font-size: var(--size400); margin-right: 40px">
-            <div style="margin-right: 10px"><i class="fa-regular fa-note-sticky"></i></div>
-            <div><spring:message code="guestbook-kr"/></div>
+<div style="width: 100%">
+    <div style="background-color: var(--gray100); width:100%; height: 4%; min-height: 40px">
+        <div class="header-flex">
+            <div class="logo-xs" style="margin-left: 5px"></div>
+            <div class="img-xs" style="margin-right: 5px"></div>
         </div>
     </div>
-    <div class="menu-flex pre-500 menu" style="color: var(--gray500); font-size: var(--size400); margin-right: 40px; min-width: 90px">
-        <div style="margin-right: 10px"><i class="fa-solid fa-arrow-right-from-bracket"></i></div>
-        <div><spring:message code="logout-kr"/></div>
+
+    <!-- banner -->
+    <div style="position: relative; width: 100%; height: 10%; min-height: 200px; background-color: indianred">
+        <!-- profile -->
+        <div class="profile" id="profile"></div>
+    </div>
+
+    <!-- menu -->
+    <div class="menu-flex" style="width: 100%; height: 50px; background-color: var(--gray200); border-bottom: 1px solid var(--gray400); min-width: 900px; min-height: 50px; justify-content: space-between">
+        <div style="width: 27%; min-width: 340px"></div>
+        <div class="menu-flex" style="width: 100%">
+            <div class="menu-flex pre-500 menu" style="color: var(--gray500); font-size: var(--size400); margin: 0 40px 0 0;">
+                <div style="margin-right: 10px"><i class="fa-solid fa-house"></i></div>
+                <div><spring:message code="home-kr"/></div>
+            </div>
+            <div class="menu-flex pre-500 menu" style="color: var(--gray500); font-size: var(--size400); margin-right: 40px">
+                <div style="margin-right: 10px"><i class="fa-regular fa-rectangle-list"></i></div>
+                <div><spring:message code="feed-kr"/></div>
+            </div>
+            <div class="menu-flex pre-500 menu" style="color: var(--gray500); font-size: var(--size400); margin-right: 40px;">
+                <div style="margin-right: 10px"><i class="fa-solid fa-user-group"></i></div>
+                <div><spring:message code="follower-kr"/></div>
+            </div>
+            <div class="menu-flex pre-500 menu" style="color: var(--gray500); font-size: var(--size400); margin-right: 40px">
+                <div style="margin: 2px 10px 0 0; font-size: var(--size500); "><i class="fa-regular fa-envelope"></i></div>
+                <div><spring:message code="message-kr"/></div>
+            </div>
+            <div class="menu-flex pre-500 menu" style="color: var(--gray500); font-size: var(--size400); margin-right: 40px">
+                <div style="margin: 2px 10px 0 0; font-size: var(--size500);"><i class="fa-regular fa-note-sticky"></i></div>
+                <div><spring:message code="guestbook-kr"/></div>
+            </div>
+        </div>
+        <div class="menu-flex pre-500 menu" style="color: var(--gray500); font-size: var(--size400); margin-right: 10px; min-width: 90px">
+            <div style="margin-right: 10px"><i class="fa-solid fa-arrow-right-from-bracket"></i></div>
+            <div><spring:message code="logout-kr"/></div>
+        </div>
     </div>
 </div>
 <div class="body-flex">
@@ -89,7 +101,10 @@
         <%@ include file="../tag/tag.jsp" %>
     </div>
     <div style="width: 60%; min-width: 600px; height: 100%; background-color: var(--gray300)">f</div>
-    <div style="width: 20%; min-width: 320px; height: 100%; background-color: var(--gray300)">s</div>
+    <div class="side-flex" style="width: 20%; min-width: 320px; height: 100%; background-color: var(--gray300)">
+        <%@include file="../follower/side-follower.jsp" %>
+        <%@include file="../guestbook/side-guestbook.jsp" %>
+    </div>
 </div>
 </body>
 <script>
@@ -107,5 +122,4 @@
         });
     });
 </script>
-
 </html>
