@@ -3,29 +3,33 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     width: 100vw;
     height: 100vh;
-
     margin: 0;
     padding: 0;
+    box-sizing: border-box; /* 요소 크기 계산에 패딩과 보더를 포함 */
+}
+
+.input-flex-row,
+.input-flex-col {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .input-flex-row {
     display: flex;
     flex-direction: row;
-    justify-items: center;
+    justify-content: flex-start;
     align-content: center;
-    width: 100%;
 }
-
 
 .input-flex-col {
     display: flex;
     flex-direction: column;
-    justify-items: flex-start;
+    justify-content: flex-start;
     align-content: center;
-    width: 100%;
 }
 
 .header-flex {
@@ -35,6 +39,9 @@
     align-items: center;
     width: 100%;
     height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .body-flex {
@@ -44,6 +51,9 @@
     align-items: flex-start;
     width: 100%;
     height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .side-flex {
@@ -53,6 +63,9 @@
     align-items: center;
     width: 100%;
     height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .menu-flex {
@@ -60,6 +73,9 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .box-header-flex {
@@ -68,6 +84,9 @@
     justify-content: space-between;
     align-items: flex-start;
     width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .profile-name-flex {
@@ -75,6 +94,18 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.social-box-flex,
+.social-flex {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .social-box-flex {
@@ -82,8 +113,6 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    width: 100%;
-    height: auto;
 }
 
 .social-flex {
@@ -92,8 +121,6 @@
     justify-content: flex-start;
     align-items: flex-start;
     text-align: center;
-    width: 100%;
-    height: auto;
 }
 
 .tag-flex {
@@ -101,4 +128,61 @@
     flex-direction: row;
     width: 100%;
     flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.follower-box-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.guestbook-flex {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.guestbook {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+    width: 100%;
+    height: auto;
+    margin: 5px 0 2px 0;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: var(--gray600);
+    border-radius: var(--round300);
+}
+
+.guestbook-header-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+    width: 100%;
+}
+
+.guestbook-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+    width: 100%;
+    height: auto;
+    padding: 12px 15px; /* 패딩 추가 */
+    background-color: rgba(249, 249, 249, 0.8); /* 80% 투명도 */
+    backdrop-filter: blur(10px);
+    border-radius: var(--round200);
+    overflow-wrap: break-word; /* 텍스트가 넘치지 않도록 단어 단위로 줄 바꿈 */
+    box-sizing: border-box;
+}
+
+.guestbook-content::-webkit-scrollbar {
+    display: none;
 }

@@ -18,9 +18,52 @@
     border-radius: 50%;
     background-color: var(--gray500);
     border: 3px solid var(--gray50);
-
     position: absolute;
-    top: 12%;
-    left: 4%;
-    z-index: 9999999999;
+    top: 60px; /* 배너와 겹치도록 top 위치 조정 */
+    left: 70px; /* 왼쪽에서의 거리 조정 */
+    z-index: 10; /* 프로필 이미지가 위에 보이도록 z-index 설정 */
+    cursor: pointer;
+}
+
+
+.follower {
+    width: 60px;
+    height: 60px;
+    border-radius: var(--round300);
+    margin:8px 11px 0 0;
+    background-color: var(--gray600);
+    cursor: pointer;
+}
+
+/* 줄의 마지막 요소에 대해 margin-right 제거 */
+.follower-box-flex .follower:last-child {
+    margin-right: 0;
+}
+
+/* 줄의 마지막 요소에 대해 margin-right 제거 */
+.follower-box-flex .follower:nth-child(5n) {
+    margin-right: 0;
+}
+
+.guestbook-image {
+    width: 40px;
+    height: 40px;
+    border: 2px solid var(--gray50);
+    border-radius: 50%;
+}
+
+.guestbook-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+.guestbook-content {
+    margin-top: 10px;
+    border-radius: var(--round200);
+    width: 100%;
+    background-color: rgba(249, 249, 249, 0.7);
+    backdrop-filter: blur(10px);
+    color: var(--gray700);
 }
