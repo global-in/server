@@ -37,42 +37,34 @@
                     <div class="pre-100" style="color: var(--gray500)">@nana</div>
                 </div>
             </div>
+            <div class="guestbook-flex guestbook-content pre-100" style="font-size: var(--size300)">
+                안녕 여러분dddddddddddddddddddddddddddddddddddddddddddddddddd
+            </div>
+        </div>
+        <div class="guestbook">
+            <div class="guestbook-header-flex">
+                <div class="guestbook-image">
+                </div>
+                <div class="guestbook-name" style="margin-left: 10px">
+                    <div class="pre-600" style="cursor: pointer; font-size: 20px">나영</div>
+                    <div class="pre-100" style="color: var(--gray500)">@nana</div>
+                </div>
+            </div>
             <div class="guestbook-flex guestbook-content pre-100">
                 안녕 여러분dddddddddddddddddddddddddddddddddddddddddddddddddd
             </div>
         </div>
         <div class="guestbook">
-            <div>
-                <div>
-                    <div></div>
-                    <div></div>
+            <div class="guestbook-header-flex">
+                <div class="guestbook-image">
                 </div>
-                <div>
+                <div class="guestbook-name" style="margin-left: 10px">
+                    <div class="pre-600" style="cursor: pointer; font-size: 20px">나영</div>
+                    <div class="pre-100" style="color: var(--gray500)">@nana</div>
                 </div>
             </div>
-        </div>
-        <div class="guestbook">
-            <div>
-                <div></div>
-                <div></div>
-            </div>
-            <div>
-            </div>
-        </div>
-        <div class="guestbook">
-            <div>
-                <div></div>
-                <div></div>
-            </div>
-            <div>
-            </div>
-        </div>
-        <div class="guestbook">
-            <div>
-                <div></div>
-                <div></div>
-            </div>
-            <div>
+            <div class="guestbook-flex guestbook-content pre-100">
+                안녕 여러분dddddddddddddddddddddddddddddddddddddddddddddddddd
             </div>
         </div>
     </div>
