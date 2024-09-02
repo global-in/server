@@ -19,6 +19,14 @@
     <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/variables/round.css">
     <script src="https://kit.fontawesome.com/4d60d5f4b1.js" crossorigin="anonymous"></script>
     <style>
+        button {
+            background-color: transparent;
+            border: none;
+            height: 20px;
+            font-size: 15px;
+            padding: 0;
+            margin: 0;
+        }
     </style>
 </head>
 <body>

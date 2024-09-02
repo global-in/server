@@ -1,0 +1,24 @@
+
+.tag {
+    padding: 5px 10px;
+    background-color: var(--gray400);
+    color: var(--gray700);
+    border-radius: var(--round300);
+    margin: 8px 8px 0 0;
+}
+
+.post-tag {
+    padding: 3px 6px;
+    background-color: var(--gray300);
+    border: 1.5px solid var(--gray500);
+    margin-left: 5px;
+    border-radius: var(--round300);
+}
+
+.post-tag-active {
+    padding: 3px 6px;
+    background-color: var(--primary-purple50);
+    border: 1.5px solid var(--primary-purple200);
+    margin-left: 5px;
+    border-radius: var(--round300);
+}

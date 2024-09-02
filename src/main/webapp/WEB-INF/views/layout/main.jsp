@@ -10,12 +10,13 @@
 <html>
 <head>
     <title>tomonet</title>
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/fonts/fonts-kr.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/styles/flex.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/styles/button.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/styles/card.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/styles/image.css">
-    <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/fonts/fonts-kr.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/styles/input.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/styles/tag.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/variables/colors.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/variables/round.css">
     <script src="https://kit.fontawesome.com/4d60d5f4b1.js" crossorigin="anonymous"></script>
@@ -101,7 +102,7 @@
         <%@ include file="../tag/tag.jsp" %>
     </div>
     <div class="flex-col" style="width: 60%; min-width: 600px; height: 100%; background-color: var(--gray300)">
-        <%@include file="../feed/feed.jsp" %>
+        <%@include file="../post/post.jsp" %>
     </div>
     <div class="side-flex" style="width: 20%; min-width: 320px; height: 100%; background-color: var(--gray300)">
         <%@include file="../follower/side-follower.jsp" %>

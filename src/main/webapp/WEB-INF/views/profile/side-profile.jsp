@@ -48,17 +48,17 @@
                     <div class="pre-100" style="color: var(--gray600)">sieunnnn</div>
                 </div>
                 <div class="social-flex" style="margin-bottom: 3px">
-                    <div style="color: var(--primary-purple300); font-size: var(--size300); width: 25px"><i class="fa-brands fa-line"></i></div>
+                    <div style="color: var(--primary-purple300); font-size: var(--size400); width: 25px; margin-top: 1px"><i class="fa-brands fa-line"></i></div>
                     <div class="pre-100" style="color: var(--gray600)">sieunnnn</div>
                 </div>
             </div>
             <div style="width: 50%">
                 <div class="social-flex" style="margin-bottom: 3px">
-                    <div style="color: var(--primary-purple300); font-size: var(--size400); width: 25px"><i class="fa-brands fa-instagram"></i></div>
+                    <div style="color: var(--primary-purple300); font-size: var(--size500); width: 25px; margin-bottom: 1px"><i class="fa-brands fa-instagram"></i></div>
                     <div class="pre-100" style="color: var(--gray600)">sieunnnn</div>
                 </div>
                 <div class="social-flex">
-                    <div style="color: var(--primary-purple300); font-size: var(--size400); width: 25px"><i class="fa-brands fa-github"></i></div>
+                    <div style="color: var(--primary-purple300); font-size: var(--size500); width: 25px; margin-bottom: 1px"><i class="fa-brands fa-github"></i></div>
                     <div class="pre-100" style="color: var(--gray600)">sieunnnn</div>
                 </div>
             </div>

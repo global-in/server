@@ -10,26 +10,20 @@
 <html>
 <head>
     <title>Tag</title>
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/fonts/fonts-kr.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/styles/flex.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/styles/button.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/styles/card.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/styles/image.css">
-    <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/fonts/fonts-kr.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/styles/input.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/styles/tag.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/variables/colors.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/variables/round.css">
+
     <script src="https://kit.fontawesome.com/4d60d5f4b1.js" crossorigin="anonymous"></script>
     <style>
         .btn-edit {
             cursor: pointer;
-        }
-
-        .tag {
-            padding: 5px 10px;
-            background-color: var(--gray400);
-            color: var(--gray700);
-            border-radius: var(--round300);
-            margin: 8px 8px 0 0;
         }
     </style>
 </head>
@@ -43,7 +37,7 @@
             <div class="tag">나히아</div>
             <div class="tag">나히아</div>
             <div class="tag">나히아</div>
-            <div class="tag">나히아</div>
+            <div class="tag">나히</div>
             <div class="tag">나히아</div>
             <div class="tag">나히아</div>
             <div class="tag">나히아</div>
