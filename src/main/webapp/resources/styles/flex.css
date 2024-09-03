@@ -259,3 +259,41 @@
         }
     }
 }
+
+.feed-post-container {
+    column-count: 4;
+    column-gap: 10px;
+
+    .feed-post-box {
+        display: inline-block;
+        width: 100%;
+        height: fit-content;
+        break-inside: avoid;
+        margin-bottom: 10px;
+        background-color: var(--gray50);
+        border-radius: var(--round300);
+        flex-direction: column;
+        box-sizing: border-box;
+        padding: 10px 10px 20px 10px;
+    }
+
+    .feed-post-info {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        .feed-post-write {
+            display: flex;
+            width: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .feed-post-user-info {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+    }
+}

@@ -13,6 +13,7 @@
     border: 1.5px solid var(--gray500);
     margin-left: 5px;
     border-radius: var(--round300);
+    cursor: pointer;
 }
 
 .post-tag-active {
@@ -21,4 +22,5 @@
     border: 1.5px solid var(--primary-purple200);
     margin-left: 5px;
     border-radius: var(--round300);
+    cursor: pointer;
 }
