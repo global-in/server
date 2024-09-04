@@ -5,11 +5,25 @@
     background-color: var(--gray400);
 }
 
+.img-s {
+    width: 35px;
+    height: 35px;
+    background-color: #6D6D6D;
+    border-radius: var(--round200);
+}
+
 .logo-xs {
     width: 28px;
     height: 28px;
     border-radius: 2px;
     background-color: var(--gray400);
+}
+
+.logo-s {
+    min-width: 40px;
+    min-height: 40px;
+    border-radius: var(--round200);
+    background-color: var(--gray500)
 }
 
 .profile {
