@@ -103,7 +103,8 @@
     </div>
     <div class="flex-col" style="width: 60%; min-width: 600px; height: 100%; background-color: var(--gray300)">
 <%--        <%@include file="../feed/feed.jsp" %>--%>
-        <%@include file="../post/post-detail.jsp" %>
+<%--        <%@include file="../post/post-detail.jsp" %>--%>
+    <%@include file="../follower/follower.jsp" %>
     </div>
     <div class="side-flex" style="width: 20%; min-width: 320px; height: 100%; background-color: var(--gray300)">
         <%@include file="../follower/side-follower.jsp" %>

@@ -25,3 +25,11 @@
     outline: none;
     cursor: pointer;
 }
+
+.follower-menu {
+    background-color: var(--gray400);
+    border-radius: var(--round200);
+    color: var(--gray700);
+    width: 100%;
+    height: 32px;
+}

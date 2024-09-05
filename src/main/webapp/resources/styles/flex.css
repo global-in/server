@@ -358,3 +358,66 @@
     width: 100%;
     height: 32px;
 }
+
+.follower-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    .follower-menu-container {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        gap: 5px;
+    }
+
+    .follower-search {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: space-between;
+        width: 100%;
+        height: auto;
+
+        .input-lg {
+            width: 89%;
+        }
+        .btn-gray-lg {
+            width:10%;
+            height: 30px;
+        }
+    }
+}
+
+.list-container {
+    margin-top: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: var(--gray50);
+    padding: 15px 15px 20px 15px;
+    border-radius: var(--round300);
+    display: flex;
+    flex-direction: column;
+}
+
+.follower-list-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-start;
+    width: 100%;
+
+    .follower-info-flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 85%;
+
+        .follower-name-flex {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-content: flex-end;
+        }
+    }
+}
