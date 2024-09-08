@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/fonts/fonts-kr.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/styles/flex.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/styles/button.css">
-    <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/styles/feed-img.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/styles/image.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/styles/input.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/styles/tag.css">
@@ -35,7 +34,7 @@
     </style>
 </head>
 <body class="bg" style="justify-content: flex-start">
-<div style="background-color: red"></div>
+<div style="margin-top: 15px"></div>
 <div class="feed-post-container">
     <div class="feed-post-box">
         <div class="feed-img"></div>
@@ -43,7 +42,7 @@
             <div class="feed-post-write pre-300" style="font-size: var(--size400); margin-bottom: 10px">ㅇ나녕ㅇ나얼마ㅣㄴ어림냐ㅓㄷ아러댤이ㅏ어ㅏㄷ</div>
             <div class="feed-post-user-info">
                 <div class="feed-post-profile-image"></div>
-                <div class="pre-300" style="font-size: var(--size500)">sieunnnn</div>
+                <div class="pre-300" style="font-size: var(--size400)">sieunnnn</div>
 
             </div>
         </div>
@@ -54,7 +53,7 @@
             <div class="feed-post-write pre-300" style="font-size: var(--size400); margin-bottom: 10px">ㅇ나녕ㅇ나얼마ㅣㄴ어림냐ㅓㄷ아러댤이ㅏ어ㅏㄷ</div>
             <div class="feed-post-user-info">
                 <div class="feed-post-profile-image"></div>
-                <div class="pre-300" style="font-size: var(--size500)">sieunnnn</div>
+                <div class="pre-300" style="font-size: var(--size400)">sieunnnn</div>
 
             </div>
         </div>
@@ -65,7 +64,7 @@
             <div class="feed-post-write pre-300" style="font-size: var(--size400); margin-bottom: 10px">ㅇ나녕ㅇ나얼마ㅣㄴ어림냐ㅓㄷ아러댤이ㅏ어ㅏㄷ</div>
             <div class="feed-post-user-info">
                 <div class="feed-post-profile-image"></div>
-                <div class="pre-300" style="font-size: var(--size500)">sieunnnn</div>
+                <div class="pre-300" style="font-size: var(--size400)">sieunnnn</div>
 
             </div>
         </div>
@@ -76,7 +75,7 @@
             <div class="feed-post-write pre-300" style="font-size: var(--size400); margin-bottom: 10px">ㅇ나녕ㅇ나얼마ㅣㄴ어림냐ㅓㄷ아러댤이ㅏ어ㅏㄷ</div>
             <div class="feed-post-user-info">
                 <div class="feed-post-profile-image"></div>
-                <div class="pre-300" style="font-size: var(--size500)">sieunnnn</div>
+                <div class="pre-300" style="font-size: var(--size400)">sieunnnn</div>
 
             </div>
         </div>
@@ -87,7 +86,7 @@
             <div class="feed-post-write pre-300" style="font-size: var(--size400); margin-bottom: 10px">ㅇ나녕ㅇ나얼마ㅣㄴ어림냐ㅓㄷ아러댤이ㅏ어ㅏㄷ</div>
             <div class="feed-post-user-info">
                 <div class="feed-post-profile-image"></div>
-                <div class="pre-300" style="font-size: var(--size500)">sieunnnn</div>
+                <div class="pre-300" style="font-size: var(--size400)">sieunnnn</div>
 
             </div>
         </div>
@@ -99,7 +98,7 @@
             <div class="feed-post-user-info">
                 <div class="feed-post-profile-image"></div>
                 <div class="feed-post-profile-nickname">
-                    <div class="pre-300" style="font-size: var(--size500)">sieunnnn</div>
+                    <div class="pre-300" style="font-size: var(--size400)">sieunnnn</div>
                 </div>
             </div>
         </div>
@@ -110,7 +109,7 @@
             <div class="feed-post-write pre-300" style="font-size: var(--size400); margin-bottom: 10px">ㅇ나녕ㅇ나얼마ㅣㄴ어림냐ㅓㄷ아러댤이ㅏ어ㅏㄷ</div>
             <div class="feed-post-user-info">
                 <div class="feed-post-profile-image"></div>
-                <div class="pre-300" style="font-size: var(--size500)">sieunnnn</div>
+                <div class="pre-300" style="font-size: var(--size400)">sieunnnn</div>
 
             </div>
         </div>
@@ -121,7 +120,7 @@
             <div class="feed-post-write pre-300" style="font-size: var(--size400); margin-bottom: 10px">ㅇ나녕ㅇ나얼마ㅣㄴ어림냐ㅓㄷ아러댤이ㅏ어ㅏㄷ</div>
             <div class="feed-post-user-info">
                 <div class="feed-post-profile-image"></div>
-                <div class="pre-300" style="font-size: var(--size500)">sieunnnn</div>
+                <div class="pre-300" style="font-size: var(--size400)">sieunnnn</div>
 
             </div>
         </div>
@@ -132,7 +131,7 @@
             <div class="feed-post-write pre-300" style="font-size: var(--size400); margin-bottom: 10px">ㅇ나녕ㅇ나얼마ㅣㄴ어림냐ㅓㄷ아러댤이ㅏ어ㅏㄷ</div>
             <div class="feed-post-user-info">
                 <div class="feed-post-profile-image"></div>
-                <div class="pre-300" style="font-size: var(--size500)">sieunnnn</div>
+                <div class="pre-300" style="font-size: var(--size400)">sieunnnn</div>
 
             </div>
         </div>
@@ -143,7 +142,7 @@
             <div class="feed-post-write pre-300" style="font-size: var(--size400); margin-bottom: 10px">ㅇ나녕ㅇ나얼마ㅣㄴ어림냐ㅓㄷ아러댤이ㅏ어ㅏㄷ</div>
             <div class="feed-post-user-info">
                 <div class="feed-post-profile-image"></div>
-                <div class="pre-300" style="font-size: var(--size500)">sieunnnn</div>
+                <div class="pre-300" style="font-size: var(--size400)">sieunnnn</div>
 
             </div>
         </div>
@@ -154,7 +153,7 @@
             <div class="feed-post-write pre-300" style="font-size: var(--size400); margin-bottom: 10px">ㅇ나녕ㅇ나얼마ㅣㄴ어림냐ㅓㄷ아러댤이ㅏ어ㅏㄷ</div>
             <div class="feed-post-user-info">
                 <div class="feed-post-profile-image"></div>
-                <div class="pre-300" style="font-size: var(--size500)">sieunnnn</div>
+                <div class="pre-300" style="font-size: var(--size400)">sieunnnn</div>
 
             </div>
         </div>
@@ -165,7 +164,7 @@
             <div class="feed-post-write pre-300" style="font-size: var(--size400); margin-bottom: 10px">ㅇ나녕ㅇ나얼마ㅣㄴ어림냐ㅓㄷ아러댤이ㅏ어ㅏㄷ</div>
             <div class="feed-post-user-info">
                 <div class="feed-post-profile-image"></div>
-                <div class="pre-300" style="font-size: var(--size500)">sieunnnn</div>
+                <div class="pre-300" style="font-size: var(--size400)">sieunnnn</div>
 
             </div>
         </div>
@@ -176,7 +175,7 @@
             <div class="feed-post-write pre-300" style="font-size: var(--size400); margin-bottom: 10px">ㅇ나녕ㅇ나얼마ㅣㄴ어림냐ㅓㄷ아러댤이ㅏ어ㅏㄷ</div>
             <div class="feed-post-user-info">
                 <div class="feed-post-profile-image"></div>
-                <div class="pre-300" style="font-size: var(--size500)">sieunnnn</div>
+                <div class="pre-300" style="font-size: var(--size400)">sieunnnn</div>
 
             </div>
         </div>
@@ -187,7 +186,7 @@
             <div class="feed-post-write pre-300" style="font-size: var(--size400); margin-bottom: 10px">ㅇ나녕ㅇ나얼마ㅣㄴ어림냐ㅓㄷ아러댤이ㅏ어ㅏㄷ</div>
             <div class="feed-post-user-info">
                 <div class="feed-post-profile-image"></div>
-                <div class="pre-300" style="font-size: var(--size500)">sieunnnn</div>
+                <div class="pre-300" style="font-size: var(--size400)">sieunnnn</div>
 
             </div>
         </div>
@@ -195,11 +194,10 @@
     <div class="feed-post-box">
         <div class="feed-img" style="height: 190px"></div>
         <div class="feed-post-info" >
-            <div class="feed-post-write pre-300" style="font-size: var(--size400); margin-bottom: 10px">ㅇ나녕ㅇ나얼마ㅣㄴ어림냐ㅓㄷ아러댤이ㅏ어ㅏㄷ</div>
+            <div class="feed-post-write pre-300" style="font-size: var(--size400); margin-bottom: 10px">ㅇ나녕ㅇ나얼마ㅣㄴ어림냐ㅓㄷ아러댤이dddddddddddddddddㅏ어ㅏㄷ</div>
             <div class="feed-post-user-info">
                 <div class="feed-post-profile-image"></div>
-                <div class="pre-300" style="font-size: var(--size500)">sieunnnn</div>
-
+                <div class="pre-300" style="font-size: var(--size400)">sieunnnn</div>
             </div>
         </div>
     </div>
@@ -209,27 +207,11 @@
             <div class="feed-post-write pre-300" style="font-size: var(--size400); margin-bottom: 10px">ㅇ나녕ㅇ나얼마ㅣㄴ어림냐ㅓㄷ아러댤이ㅏ어ㅏㄷ</div>
             <div class="feed-post-user-info">
                 <div class="feed-post-profile-image"></div>
-                <div class="pre-300" style="font-size: var(--size500)">sieunnnn</div>
+                <div class="pre-300" style="font-size: var(--size400)">sieunnnn</div>
 
             </div>
         </div>
     </div>
 </div>
 </body>
-<script>
-    // 일본어의 경우 다시 조정하기
-    document.addEventListener("DOMContentLoaded", function() {
-        const maxChars = 15; // 자르고 싶은 글자 수를 지정
-        const feedPostWrites = document.querySelectorAll('.feed-post-write');
-
-        feedPostWrites.forEach(function(element) {
-            let text = element.textContent.trim();
-
-            if (text.length > maxChars) {
-                let truncatedText = text.substring(0, maxChars) + '...';
-                element.textContent = truncatedText;
-            }
-        });
-    });
-</script>
 </html>

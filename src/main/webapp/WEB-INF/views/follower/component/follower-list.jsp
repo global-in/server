@@ -20,7 +20,7 @@
         </div>
         <div class="pre-400">대화명</div>
     </div>
-    <button class="btn-lg pre-400" style="width: 10%; height: 100%; border-radius: var(--round300); font-size: var(--size400);">팔로우</button>
+    <button class="btn-lg pre-400" style="width: 10%; height: 40px; border-radius: var(--round300); font-size: var(--size400);">팔로우</button>
 </div>
 <hr  style="width: 100%"/>
 </body>

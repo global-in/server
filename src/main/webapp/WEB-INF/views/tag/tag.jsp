@@ -34,16 +34,16 @@
             <div class="btn-edit" style="color: var(--gray600); font-size: var(--size400); margin-top: 2px"><i class="fa-regular fa-pen-to-square"></i></div>
         </div>
         <div class="tag-flex pre-400">
-            <div class="tag">나히아</div>
-            <div class="tag">나히아</div>
-            <div class="tag">나히아</div>
-            <div class="tag">나히</div>
-            <div class="tag">나히아</div>
-            <div class="tag">나히아</div>
-            <div class="tag">나히아</div>
-            <div class="tag">나히아</div>
-            <div class="tag">나히아</div>
-            <div class="tag">나히아</div>
+            <div class="tag">태그</div>
+            <div class="tag">태그</div>
+            <div class="tag">태그</div>
+            <div class="tag">태그</div>
+            <div class="tag">태그</div>
+            <div class="tag">태그</div>
+            <div class="tag">태그</div>
+            <div class="tag">태그</div>
+            <div class="tag">태그</div>
+            <div class="tag">태그</div>
         </div>
     </div>
 </body>

@@ -8,9 +8,11 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <title>post</title>
 </head>
 <body>
-
+<div id="postContainer" class="post-container">
+    <jsp:include page="component/post-card.jsp" />
+</div>
 </body>
 </html>

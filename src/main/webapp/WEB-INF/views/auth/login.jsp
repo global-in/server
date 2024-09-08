@@ -30,7 +30,7 @@
     </style>
 </head>
 <body class="bg" style="background-color: var(--gray400)">
-<div class="card" style="min-width: 430px">
+<div class="card" style="min-width: 430px; height: 66%">
     <div class="font-kr-800" style="font-size: 36px; margin-bottom: 30px"><spring:message code="welcome-kr"/></div>
     <div style="margin-bottom: 10px">
         <div class="pre-100" style="font-size: var(--size200); color: var(--gray800)"><spring:message code="label-email-kr" /></div>
@@ -46,7 +46,7 @@
     <div class="pre-100" style="font-size: var(--size400); color: var(--gray700);"><spring:message code="lost-message-kr" /></div>
 
     <div class="font-kr-800" style="font-size: 26px; margin: 50px 0 10px 0"><spring:message code="social-message-kr"/></div>
-    <button class="btn-lg pre-500" style="width: 100%; height: 50px; background-color:var(--google); color: var(--gray50); border-radius: var(--round300); font-size: var(--size500); margin-bottom: 15px">
+    <button class="btn-lg pre-500" style="width: 100%; height: 50px; background-color:var(--google); color: var(--gray50); border-radius: var(--round300); font-size: var(--size500); margin-bottom: 10px">
         <spring:message code="btn-google-login-kr" />
     </button>
     <button class="btn-lg pre-500" style="width: 100%; height: 50px; background-color: var(--kakao); color: var(--gray800); border-radius: var(--round300); font-size: var(--size500); margin-bottom: 15px">

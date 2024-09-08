@@ -50,11 +50,6 @@
             <div class="follower"></div>
             <div class="follower"></div>
             <div class="follower"></div>
-            <div class="follower"></div>
-            <div class="follower"></div>
-            <div class="follower"></div>
-            <div class="follower"></div>
-            <div class="follower"></div>
         </div>
     </div>
     <div style="width: 90%; margin-top: 30px">
@@ -63,11 +58,6 @@
             <button class="pre-100 btn-more" style="color: var(--gray600); font-size: var(--size400); margin-top: 2px"><spring:message code="btn-more-kr" /></button>
         </div>
         <div class="follower-box-flex">
-            <div class="follower"></div>
-            <div class="follower"></div>
-            <div class="follower"></div>
-            <div class="follower"></div>
-            <div class="follower"></div>
             <div class="follower"></div>
             <div class="follower"></div>
             <div class="follower"></div>

@@ -19,7 +19,7 @@
     </style>
 </head>
 <body>
-<div class="follower-container">
+<div class="follower-container" style="margin-top: 15px">
     <div class="follower-menu-container">
         <button class="follower-menu pre-500" style="color: var(--gray700)">팔로워</button>
         <button class="follower-menu pre-500" style="color: var(--gray700)">팔로잉</button>
@@ -34,19 +34,4 @@
     </div>
 </div>
 </body>
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        const menuItems = document.querySelectorAll('.follower-menu');
-
-        menuItems.forEach(menu => {
-            menu.addEventListener('click', function() {
-                menuItems.forEach(item => {
-                    item.style.color = 'var(--gray700)';
-                });
-
-                menu.style.color = 'var(--primary-purple300)';
-            });
-        });
-    });
-</script>
 </html>
