@@ -1,9 +1,9 @@
 .card {
     width: 22%;
-    height: 78%;
+    height: 75%;
 
     background-color: rgba(249, 249, 249, 0.9); /* 90% 투명도 */
-    padding: 100px 35px 10px 35px;
+    padding: 90px 35px 0 35px;
     border-radius: 15px;
     backdrop-filter: blur(10px);
 }

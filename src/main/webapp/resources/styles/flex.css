@@ -15,7 +15,6 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    padding: 10px 20px;
 }
 
 .input-flex-row,
@@ -200,9 +199,12 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
-
+    background-color: var(--gray50);
     width: 100%;
     margin-top: 10px;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: var(--round300);
 
     .post-content {
         display: flex;
@@ -271,7 +273,7 @@
         border-radius: var(--round300);
         flex-direction: column;
         box-sizing: border-box;
-        padding: 10px 10px 20px 10px;
+        padding: 10px 10px 15px 10px;
     }
 
     .feed-post-info {
@@ -309,8 +311,7 @@
     align-items: flex-start;
 
     width: 100%;
-    margin-top: 10px;
-    padding: 20px 20px 30px 20px;
+    padding: 0 20px 20px 20px;
     box-sizing: border-box;
     background-color: var(--gray50);
     border-radius: var(--round400);
@@ -406,6 +407,7 @@
     justify-content: space-between;
     align-content: flex-start;
     width: 100%;
+    height: 100%;
 
     .follower-info-flex {
         display: flex;
@@ -419,5 +421,156 @@
             justify-content: flex-start;
             align-content: flex-end;
         }
+    }
+}
+
+.message-box {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+
+    .message-list-container {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: 100%;
+        border-right: 1px solid var(--gray600);
+
+        .massage-list-input-container {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 10%;
+            box-sizing: border-box;
+            padding: 0 10px 5px 10px;
+            border-bottom: 1px solid var(--gray600);
+
+            .add-message {
+                display: flex;
+                flex-direction: row;
+                width: 100%;
+                justify-content: flex-end;
+                align-items: center;
+                margin: 20px 0 10px 0;
+            }
+        }
+
+        .message-list {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 90%;
+            box-sizing: border-box;
+            padding: 10px;
+            overflow-y: scroll;
+
+            .message-room-box {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                width: 100%;
+                /*border: 1px solid var(--gray400);*/
+                border-radius: var(--round300);
+                background-color: var(--gray300);
+                box-sizing: border-box;
+                padding: 10px;
+
+                .message-room-info {
+                    display: flex;
+                    flex-direction: column;
+                    width: 90%;
+
+                    .message-room-box-header {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+
+                        .message-user-info {
+                            display: flex;
+                            flex-direction: row;
+                            align-items: flex-end;
+                        }
+                    }
+                }
+            }
+        }
+
+        .message-list::-webkit-scrollbar {
+            display: none;
+        }
+    }
+
+    .message-room-container {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: 100%;
+    }
+}
+
+.selected-message-room-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+
+    .selected-message-room-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 20%;
+        border-bottom: 1px solid var(--gray700);
+    }
+
+    .selected-message-room-messages {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 70%;
+        box-sizing: border-box;
+        padding: 20px 10px 10px 10px;
+        overflow-y: scroll;
+
+        .message-send-container {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            align-items: flex-end;
+
+            .message-send {
+                width: 70%;
+                height: auto;
+                box-sizing: border-box;
+                padding: 10px 20px;
+                background-color: var(--gray300);
+                border-radius: var(--round300);
+            }
+        }
+
+        .message-receive-container {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            align-items: flex-start;
+
+            .message-receive {
+                width: 70%;
+                height: auto;
+                box-sizing: border-box;
+                padding: 10px 20px;
+                background-color: var(--gray300);
+                border-radius: var(--round300);
+            }
+        }
+    }
+
+    .selected-message-room-input {
+        box-sizing: border-box;
+        padding: 10px;
+        height: 10%;
     }
 }
