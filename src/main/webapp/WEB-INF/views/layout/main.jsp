@@ -50,15 +50,16 @@
 <div style="width: 100%">
     <div style="background-color: var(--gray100); width:100%; height: 4%; min-height: 40px">
         <div class="header-flex">
-            <div class="logo-xs" style="margin-left: 5px"></div>
+            <img class="logo-xs" style="margin-left: 5px; padding: 2px; background-color: var(--gray100)" src="/resources/img/logo.png"/>
             <div class="img-xs" style="margin-right: 5px"></div>
         </div>
     </div>
 
     <!-- banner -->
-    <div style="position: relative; width: 100%; height: 10%; min-height: 200px; background-color: indianred">
+    <div style="position: relative; width: 100%; height: 10%; min-height: 200px; background-color: var(--gray400)">
         <!-- profile -->
-        <div class="profile" id="profile"></div>
+        <div class="profile" id="profile">
+        </div>
     </div>
 
     <!-- menu -->
@@ -102,9 +103,7 @@
         <%@ include file="../tag/tag.jsp" %>
     </div>
     <div class="flex-col" style="width: 60%; min-width: 600px; height: 100%; background-color: var(--gray300)">
-<%--        <%@include file="../feed/feed.jsp" %>--%>
-<%--        <%@include file="../post/post-detail.jsp" %>--%>
-    <%@include file="../follower/follower.jsp" %>
+        <div class="center" style="width: 100%; height: 100%"></div>
     </div>
     <div class="side-flex" style="width: 20%; min-width: 320px; height: 100%; background-color: var(--gray300)">
         <%@include file="../follower/side-follower.jsp" %>
@@ -112,19 +111,5 @@
     </div>
 </div>
 </body>
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        const menuItems = document.querySelectorAll('.menu');
-
-        menuItems.forEach(menu => {
-            menu.addEventListener('click', function() {
-                menuItems.forEach(item => {
-                    item.style.color = 'var(--gray500)';
-                });
-
-                menu.style.color = 'var(--primary-purple300)';
-            });
-        });
-    });
-</script>
+<script src="../../../resources/js/main.js"></script>
 </html>
