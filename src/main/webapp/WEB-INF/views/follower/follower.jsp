@@ -20,7 +20,7 @@
 </head>
 <body>
 <div class="follower-container">
-    <div class="follower-menu-container" style="margin-bottom: 10px">
+    <div class="follower-menu-container">
         <button class="follower-menu pre-500" style="color: var(--gray700)">팔로워</button>
         <button class="follower-menu pre-500" style="color: var(--gray700)">팔로잉</button>
         <button class="follower-menu pre-500" style="color: var(--gray700)">요청</button>
